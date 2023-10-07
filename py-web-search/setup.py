@@ -7,8 +7,8 @@ setup(
     description = 'A Python module to fetch and parse results from different search engines.',
     author = 'Master Chief',
     author_email = 'Chifu0260@gmail.com',
-    url = 'https://github.com/rohithpr/py-web-search',
-    download_url = 'https://github.com/rohithpr/py-web-searc h/tarball/0.2.4',
+    url = 'https://github.com/Chifuonsteroids/Web-Crawler',
+    download_url = 'https://github.com/Chifuonsteroids/Web-Crawler',
     keywords = ['web search', 'web scraping'],
     classifiers = [
     'Intended Audience :: Developers',

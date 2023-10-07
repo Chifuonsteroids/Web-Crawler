@@ -6,11 +6,8 @@ import requests
 try:
     from html.parser import HTMLParser
 except ImportError:
-    from HTMLParser import HTMLParser
+    from html.parser import HTMLParser
 
-##################################################
-# Copied code
-##################################################
 
 class MLStripper(HTMLParser):
     # Code copied from StackOverflow http://stackoverflow.com/a/925630/3664835
@@ -30,9 +27,6 @@ def strip_tags(html):
     s.feed(html)
     return ' '.join(s.get_data().split())
 
-##################################################
-# Helpers
-##################################################
 
 # Best: http://www.bing.com/search?q=hello+world&first=9
 # Recent: http://www.bing.com/search?q=hello+world&filters=ex1%3a%22ez1%22

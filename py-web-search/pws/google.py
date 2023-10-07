@@ -9,7 +9,7 @@ import requests
 try:
     from html.parser import HTMLParser
 except ImportError:
-    from HTMLParser import HTMLParser
+    from html.parser import HTMLParser
 
 class MLStripper(HTMLParser):
     # Code copied from StackOverflow http://stackoverflow.com/a/925630/3664835
