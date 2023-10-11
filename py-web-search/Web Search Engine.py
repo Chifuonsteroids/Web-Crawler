@@ -323,7 +323,7 @@ def web_search_engine():
                 if html_title and plain_text:
                     if len(html_title) > 0:
                         connection = analyze_webpage(connection, url, html_title, plain_text)
-                        if (webpage_count > 0) and ((webpage_count % 100) == 0):
+                        if (webpage_count > 0) and ((webpage_count % 1000) == 0):
                             if connection.is_connected():
                                 connection.close()
                                 print("MySQL connection is now closed")
